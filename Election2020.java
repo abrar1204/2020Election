@@ -19,7 +19,7 @@ public class Election2020
     
     if (evs == 269) 
     {
-    System.out.println("Your candidate has 269 electoral votes (half of the total 538 electoral votes).The House of Representatives will decide who the next president will be.");
+    System.out.println(candidate + " has 269 electoral votes (half of the total 538 electoral votes).The House of Representatives will decide who the next president will be.");
     }
     
     else if (evs < 270 && evs > 0)   
